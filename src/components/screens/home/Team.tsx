@@ -18,7 +18,7 @@ export const Team = () => {
                         />
                     </div>
                     <p className='mt-2 text-sm lg:text-xl'><b>CEO</b></p>
-                    <p className='font-[600] tex-xl lg:text-2xl'>Fatima Citerna</p>
+                    <p className='font-[600] tex-xl lg:text-2xl'>Fatima Cisterna</p>
                 </div>
                 
                 <div className='text-center mb-4 lg:mb-0'>
@@ -28,8 +28,8 @@ export const Team = () => {
                             className='grayscale hover:grayscale-0 rounded-xl w-full object-contain'
                         />
                     </div>
-                    <p className='mt-2'><b>CEO</b></p>
-                    <p className='font-[600] text-2xl'>Fatima Citerna</p>
+                    <p className='mt-2 text-sm lg:text-xl'><b>CEO</b></p>
+                    <p className='font-[600] tex-xl lg:text-2xl'>Marina Cisterna</p>
                 </div>
             </div>
            
