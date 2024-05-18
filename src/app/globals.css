@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.light {
+  --color-primary: #ffffff;
+  --color-secondary: #eaeaea;
+  --color-accent: #643d63;
+  --color-border: #C5C3C4;
+  --color-hover: #718096;
+  --color-text: #000000;
+  --color-text-secondary: #333333;
+  --color-text-tertiary: #4e4e4e;
+}
+
+.dark {
+  --color-primary: #262626;
+  --color-secondary: #232323;
+  --color-accent: #2E2E2E;
+  --color-border: #373737;
+  --color-hover: #718096;
+  --color-text: #ffffff;
+  --color-text-secondary: #e1e1e1;
+  --color-text-tertiary: #cacaca;
+}
+
+button.toggled > div.astro-ESKEKC2M:first-child {
+  transform: translate(0, .375rem) rotate(45deg) skew(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+button.toggled > div.astro-ESKEKC2M:last-child {
+  transform: translate(0, -.25rem) rotate(-45deg) skew(0) skewY(0) scaleX(1) scaleY(1);
+}
